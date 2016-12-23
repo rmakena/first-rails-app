@@ -1,0 +1,14 @@
+<h2>The article shows here</h2>
+<p>
+<%= @article.title %>
+
+</p>
+
+<p>
+<%= @article.description %>
+
+</p>
+  <%= link_to 'Edit this article', edit_article_path(@article) %> |
+
+
+  <%= link_to 'Home', articles_path %>
